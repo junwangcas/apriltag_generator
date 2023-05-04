@@ -20,3 +20,10 @@ $ python ./make_tag.py --nx 1 --ny 1 --marginx 0.00 --marginy 0.00 --tsize 0.16 
 ```
 $ python ./make_tag.py --nx 2 --ny 2 --marginx 0.00 --marginy 0.00 --tsize 0.08 --tspace 0.1 --startid 0 --tfam t36h11 --borderbits 1
 ```
+
+
+
+### Convert svg to png 
+
+inkscape -f pattern1.svg -e pattern1.png -y 1.0 
+
